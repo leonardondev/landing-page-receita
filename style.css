@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Alice", serif;
+  line-height: 150%;
+  color: #573A37
+}
+
+body {
+  background-color: #573824;
+  background-image: url(assets/bg-image.png);
+  background-size: cover;
+}
+
+#page {
+  background-color: #F0E8C2;
+  width: 800px;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  margin: 48px auto 28px;
+}
+
+#page img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+#page main {
+  padding: 24px;
+}
+
+#page h1, h2 {
+  color: #291B1A;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+#page h1 {
+  line-height: 140%;
+  font-size: 40px;
+}
+
+#page h2 {
+  font-size: 24px;
+}
+
+#page section + section {
+  margin-top: 24px;
+}
+
+#page ul {
+  padding-left: 24px;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+footer {
+  color: #F0E8C2;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer i {
+  vertical-align: middle;
+}
